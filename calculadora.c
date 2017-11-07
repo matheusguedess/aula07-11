@@ -1,4 +1,5 @@
-/*Aula sobre laço de repetição
+/*Aula sobre laÃ§o de repetiÃ§Ã£o
+calculadora usando switch e dowhile
 Aluno: Matheus Guedes
 RA: 1800586981
 */
@@ -17,9 +18,9 @@ int main(void)
 
     printf("\tCALCULADORA\n\n");
     printf("1-SOMA\n");
-    printf("2-SUBTRAÇÃO\n");
-    printf("3-MULTIPLICAÇÃO\n");
-    printf("4-DIVISÃO\n");
+    printf("2-SUBTRAÃ‡ÃƒO\n");
+    printf("3-MULTIPLICAÃ‡ÃƒO\n");
+    printf("4-DIVISÃƒO\n");
     scanf(" %d", &op);
 
 
@@ -39,7 +40,7 @@ int main(void)
     break;
     case 2:
         system("cls");
-        printf("SUBTRAÇÃO\n\n");
+        printf("SUBTRAÃ‡ÃƒO\n\n");
         printf("Digite o primeiro digito:\n");
         scanf(" %d", &n1);
         printf("Digite o segundo digito:\n");
@@ -51,7 +52,7 @@ int main(void)
     break;
     case 3:
         system("cls");
-        printf("MULTIPLICAÇÃO\n\n");
+        printf("MULTIPLICAÃ‡ÃƒO\n\n");
         printf("Digite o primeiro digito:\n");
         scanf(" %d", &n1);
         printf("Digite o segundo digito:\n");
@@ -63,7 +64,7 @@ int main(void)
     break;
         case 4:
         system("cls");
-        printf("DIVISÃO\n\n");
+        printf("DIVISÃƒO\n\n");
         printf("Digite o primeiro digito:\n");
         scanf(" %d", &n1);
         printf("Digite o segundo digito:\n");
