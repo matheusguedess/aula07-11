@@ -4,7 +4,7 @@
 int main(void)
 {
     setlocale(LC_ALL, "");
-    int x, op;
+    int op;
 
     printf("ESCOLHA A OPÇÃO\n\n");
     printf("1-????\n");
