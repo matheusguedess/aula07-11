@@ -1,3 +1,8 @@
+/*Aula sobre laço de repetição
+Aluno: Matheus Guedes
+RA: 1800586981
+*/
+
 #include <stdio.h>
 #include <locale.h>
 
