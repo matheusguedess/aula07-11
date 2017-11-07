@@ -6,7 +6,7 @@ int main(void)
     setlocale(LC_ALL, "");
     int x, op;
 
-    printf("ESCOLHA A OP«√O\n\n");
+    printf("ESCOLHA A OP√á√ÉO\n\n");
     printf("1-????\n");
     printf("2-????\n");
     printf("3-????\n");
