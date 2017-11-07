@@ -1,5 +1,4 @@
 /*Aula sobre laço de repetição
-calculadora usando switch e dowhile
 Aluno: Matheus Guedes
 RA: 1800586981
 */
@@ -29,49 +28,49 @@ int main(void)
     case 1:
         system("cls");
         printf("SOMA\n\n");
-        printf("Digite o primeiro digito:\n");
+        printf("Digite o primeiro digito: ");
         scanf(" %d", &n1);
-        printf("Digite o segundo digito:\n");
+        printf("\nDigite o segundo digito: ");
         scanf(" %d", &n2);
         r=n1+n2;
-        printf("%d+%d=%.f", n1, n2, r);
-        printf("\ndigite 1 para voltar ao menu\n");
+        printf("\n%d + %d = %.f", n1, n2, r);
+        printf("\n\n\ndigite 1 para voltar ao menu\n");
         scanf("%d", &op2);
     break;
     case 2:
         system("cls");
         printf("SUBTRAÇÃO\n\n");
-        printf("Digite o primeiro digito:\n");
+        printf("Digite o primeiro digito: ");
         scanf(" %d", &n1);
-        printf("Digite o segundo digito:\n");
+        printf("\nDigite o segundo digito: ");
         scanf(" %d", &n2);
         r=n1-n2;
-        printf("%d-%d=%.f", n1, n2, r);
-        printf("\ndigite 1 para voltar ao menu\n");
+        printf("\n%d - %d = %.f", n1, n2, r);
+        printf("\n\n\ndigite 1 para voltar ao menu\n");
         scanf("%d", &op2);
     break;
     case 3:
         system("cls");
         printf("MULTIPLICAÇÃO\n\n");
-        printf("Digite o primeiro digito:\n");
+        printf("Digite o primeiro digito:");
         scanf(" %d", &n1);
-        printf("Digite o segundo digito:\n");
+        printf("\nDigite o segundo digito: ");
         scanf(" %d", &n2);
         r=n1*n2;
-        printf("%d*%d=%.1f", n1, n2, r);
-        printf("\ndigite 1 para voltar ao menu\n");
+        printf("\n%d * %d = %.1f", n1, n2, r);
+        printf("\n\n\ndigite 1 para voltar ao menu\n");
         scanf("%d", &op2);
     break;
         case 4:
         system("cls");
         printf("DIVISÃO\n\n");
-        printf("Digite o primeiro digito:\n");
+        printf("Digite o primeiro digito: ");
         scanf(" %d", &n1);
-        printf("Digite o segundo digito:\n");
+        printf("\nDigite o segundo digito: ");
         scanf(" %d", &n2);
         r=n1/n2;
-        printf("%d/%d=%.2f", n1, n2, r);
-        printf("\ndigite 1 para voltar ao menu\n");
+        printf("\n%d / %d = %.2f", n1, n2, r);
+        printf("\n\n\ndigite 1 para voltar ao menu\n");
         scanf("%d", &op2);
     break;
     default:
